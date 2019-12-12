@@ -1,0 +1,11 @@
+﻿
+
+    <ejs-grid id="Grid" allowPaging="true" allowSorting="true" toolbar="@(new List<string>() {"Add", "Edit", "Delete", "Search"})">
+        <e-grid-editSettings allowAdding="true" allowDeleting="true" showDeleteConfirmDialog="true" allowEditing="true" mode="Dialog"></e-grid-editSettings>
+        <e-data-manager url="/Home/UrlDataSource" insertUrl="/Home/Insert" updateUrl="/Home/Update" removeUrl="/Home/Delete" adaptor="UrlAdaptor" crossDomain="true"></e-data-manager>
+        <e-grid-columns>
+            <e-grid-column field="OrderID" isPrimaryKey="true" headerText="Order ID" width="130"></e-grid-column>
+            <e-grid-column field="CustomerID" headerText="Customer ID" width="140"></e-grid-column>
+            <e-grid-column field="ShipCity" headerText="Ship City" width="130"></e-grid-column>
+        </e-grid-columns>
+    </ejs-grid>

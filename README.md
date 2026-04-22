@@ -1,6 +1,6 @@
-## EJ2-DataGrid-Core-dotnet3-DataBinding-url-adaptor
+# EJ2-DataGrid-Core-dotnet3-DataBinding-url-adaptor
 
-### Repository Description
+## Repository Description
 
 This repository demonstrates how to bind the Syncfusion EJ2 DataGrid to a remote data source using the UrlAdaptor in an ASP.NET Core 3.x application.
 
